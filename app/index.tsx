@@ -1,5 +1,5 @@
-import { Button } from "tamagui";
+import { H1 } from "tamagui";
 
 export default function Home() {
-  return <Button>test</Button>;
+  return <H1 textAlign="center">Domicilios Pet RD</H1>;
 }
