@@ -17,6 +17,7 @@
     "@expo/metro-runtime": "3.1.1",
     "@react-navigation/native": "^6.0.2",
     "@tamagui/config": "^1.89.20",
+    "@tamagui/lucide-icons": "^1.89.20",
     "@tamagui/metro-plugin": "^1.89.20",
     "babel-preset-expo": "^10.0.1",
     "expo": "50.0.2",
