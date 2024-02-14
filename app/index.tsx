@@ -1,5 +1,13 @@
-import { H1 } from "tamagui";
+import { useServices } from "@/hooks/services/useServices";
+import { View, Text } from "tamagui";
 
 export default function Home() {
-  return <H1 textAlign="center">Domicilios Pet RD</H1>;
+  const services = useServices();
+  return (
+    <View>
+      {services.map((service) => (
+        <Text>{service.title}</Text>
+      ))}
+    </View>
+  );
 }
